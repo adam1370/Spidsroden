@@ -1,7 +1,61 @@
 .produkt {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
-.main {
-  grid-row: 10rem;
+
+.Alle_produkter {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.Box_1 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_2 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_3 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_4 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_5 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_6 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_7 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_8 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Box_9 {
+  background-color: #80b161;
+  padding: 2rem;
+}
+
+.Toppen {
+  text-align: center;
 }
