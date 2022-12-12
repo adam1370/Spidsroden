@@ -1,0 +1,7 @@
+.produkt {
+  width: 500px;
+  height: 500px;
+}
+.main {
+  grid-row: 10rem;
+}
