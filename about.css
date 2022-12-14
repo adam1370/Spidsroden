@@ -15,7 +15,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: black;
   margin-bottom: 20px;
   font-size: 3rem;
