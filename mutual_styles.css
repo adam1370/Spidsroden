@@ -1,9 +1,14 @@
 body {
-    background-color: #c6c6c6;
+  background-color: #f2e8e2;
 }
 
-h1 {}
+h1 {
+  color: black;
+}
 
-h2 {}
+h2 {
+  color: black;
+}
 
-p {}
+p {
+}

@@ -1,0 +1,52 @@
+.produkt {
+  width: 350px;
+  height: 350px;
+}
+
+.Alle_produkter {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.Box_1 {
+  padding: 2rem;
+}
+
+.Box_2 {
+  padding: 2rem;
+}
+
+.Box_3 {
+  padding: 2rem;
+}
+
+.Box_4 {
+  padding: 2rem;
+}
+
+.Box_5 {
+  padding: 2rem;
+}
+
+.Box_6 {
+  padding: 2rem;
+}
+
+.Box_7 {
+  padding: 2rem;
+}
+
+.Box_8 {
+  padding: 2rem;
+}
+
+.Box_9 {
+  padding: 2rem;
+}
+
+.Toppen {
+  text-align: center;
+}
