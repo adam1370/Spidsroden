@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+ul {
+  margin-left: 565px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: none;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: double;
+  font-size: 50px;
+  color: #80b161;
+  padding: 0 40px;
+}
+
+ul li a:hover {
+  color: rgb(170, 96, 0);
+}
+
+h1.entry-title {
+  color: #80b161;
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: 1px 3px #727c6f;
+}
+
+.illustrator_img {
+  width: 1600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
