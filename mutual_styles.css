@@ -1,11 +1,14 @@
 /* //rezet// */
+img {
+  max-width: 100%;
+}
 
-/* * {
+* {
   all: unset;
   display: revert;
   cursor: revert;
   box-sizing: border-box;
-} */
+}
 
 body {
   background-color: #f2e8e2;
@@ -13,6 +16,7 @@ body {
 
 h1 {
   color: black;
+  font-size: 25px;
 }
 
 h2 {
