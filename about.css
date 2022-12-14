@@ -45,11 +45,6 @@ h1 {
   font-size: 4rem;
 }
 
-footer {
-  text-align: center;
-  margin-block: 20px;
-}
-
 main {
   font-family: "overskrift";
   padding: 20px;
@@ -99,16 +94,17 @@ dt {
   margin: 0;
   padding: 0;
 }
-/*forside*/
+
 .grid_1-1 {
   display: grid;
   gap: 20px;
 }
-/*min computer*/
+
 @media (min-width: 300px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: right;
   }
 
   .grid_2-1 {
@@ -116,4 +112,9 @@ dt {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
+}
+
+.col_order {
+  grid-template-columns: 1 fr 1fr;
+  order: -1;
 }
