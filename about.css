@@ -3,26 +3,10 @@ body {
   font-family: system-ui;
 }
 
-h1,
-h2 {
-  font-size: 3rem;
-}
-
-/* Normalisering af billeder */
-
 img {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.overskrift {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-}
-
-.tekst {
-  color: black;
 }
 
 body {
@@ -32,22 +16,10 @@ body {
 
 h1,
 h2 {
-  font-family: "face";
   color: black;
-}
-
-main {
-  padding: 20px;
-}
-
-h1 {
   margin-bottom: 20px;
-  font-size: 4rem;
-}
-
-footer {
-  text-align: center;
-  margin-block: 20px;
+  font-size: 3rem;
+  font-family: "Playfair display", serif;
 }
 
 main {
@@ -55,10 +27,6 @@ main {
   padding: 20px;
   margin: 10px;
   line-height: 1.5;
-}
-
-ul {
-  padding: 10px;
 }
 
 .header ul {
@@ -70,7 +38,7 @@ ul {
 }
 
 .header li {
-  padding: 10px;
+  padding: 20px;
   display: inline-block;
   margin: auto;
 }
@@ -78,15 +46,7 @@ ul {
 .header a {
   color: black;
 }
-ul li {
-  margin: 20px;
-}
 
-h1 h2 {
-  font-family: "Playfair display", serif;
-  margin-bottom: 20px;
-  font-size: 4rem;
-}
 ul,
 dd,
 dt {
@@ -99,13 +59,13 @@ dt {
   margin: 0;
   padding: 0;
 }
-/*forside*/
+
 .grid_1-1 {
   display: grid;
   gap: 20px;
 }
-/*min computer*/
-@media (min-width: 300px) {
+
+@media (min-width: 600px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -116,4 +76,9 @@ dt {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
+}
+
+.col_order {
+  grid-template-columns: 1 fr 1fr;
+  order: -1;
 }
