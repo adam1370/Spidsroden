@@ -41,8 +41,55 @@ h1.entry-title {
 }
 
 .illustrator_img {
-  width: 1600px;
+  width: 1400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.paragraf1 {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.paragraf2 {
+  width: 1400px;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-right: auto;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tørvarer1 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  margin-top: 40px;
+  color: #496537;
+  font-size: 30px;
+}
+
+.tørvarer2 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  margin-top: 10px;
+  color: #496537;
+  font-size: 30px;
+}
+
+.tørvarer3 {
+  margin-top: 10px;
+  color: #496537;
+  font-size: 30px;
+}
+
+.tørvarer4 {
+  margin-top: 10px;
+  color: #496537;
+  font-size: 30px;
 }
