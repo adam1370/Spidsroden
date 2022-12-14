@@ -10,15 +10,10 @@ h2 {
   color: black;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-nav {
+.Menu {
   width: 100%;
-  height: 100px;
-  background-color: rgb(255, 255, 255);
+  height: 100%;
+  background-color: #f2e8e2;
 }
 
 ul {
@@ -35,9 +30,9 @@ ul li {
 ul li a {
   display: block;
   text-decoration: double;
-  font-size: 50px;
+  font-size: 1rem;
   color: #80b161;
-  padding: 0 40px;
+  padding: 1rem;
 }
 
 ul li a:hover {
