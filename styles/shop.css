@@ -2,10 +2,11 @@
   width: 350px;
   height: 350px;
 }
-
+main {
+  padding: 5rem;
+}
 .Alle_produkter {
   grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 1rem;
   gap: 1rem;
   display: grid;
   place-items: center;
