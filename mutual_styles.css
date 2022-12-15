@@ -12,11 +12,15 @@ body {
 }
 
 h1 {
-  color: black;
+  color: rgb(16, 86, 16);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: bold;
 }
 
 h2 {
-  color: black;
+  color: rgb(16, 86, 16);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: bold;
 }
 
 .Menu {
@@ -34,16 +38,18 @@ ul li {
   display: inline-block;
   float: none;
   line-height: 100px;
+  color: rgb(16, 86, 16);
 }
 
 ul li a {
   display: block;
   text-decoration: double;
   font-size: 1rem;
-  color: #80b161;
+  color: rgb(16, 86, 16);
   padding: 1rem;
 }
 
-ul li a:hover {
-  color: rgb(170, 96, 0);
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
