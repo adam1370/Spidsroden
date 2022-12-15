@@ -5,6 +5,11 @@
 main {
   padding: 5rem;
 }
+
+body {
+  background-image: url("Carrot.png");
+  background-color: #000000;
+}
 .Alle_produkter {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
