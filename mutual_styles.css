@@ -13,18 +13,13 @@ img {
 body {
   background-color: #f2e8e2;
 }
-
 h1 {
-  color: rgb(16, 86, 16);
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 50px;
 }
-
 h2 {
-  color: rgb(16, 86, 16);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-  font-size: 30px;
+  color: black;
+  font-size: 50px;
 }
 
 .Menu {
