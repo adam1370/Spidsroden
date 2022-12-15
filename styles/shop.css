@@ -1,13 +1,14 @@
 .produkt {
-  width: 500px;
-  max-height: fit-content;
-  grid-template: auto;
+  width: 350px;
+  height: 350px;
 }
 main {
   padding: 5rem;
 }
+
 body {
   background-image: url("Carrot.png");
+  background-color: #000000;
 }
 .Alle_produkter {
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,13 +57,10 @@ body {
   text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   .produkt {
-    width: 600px;
-  }
-
-  .Menu {
-    width: 600px;
+    width: 350px;
+    height: 350px;
   }
   main {
     max-width: 1200px;
