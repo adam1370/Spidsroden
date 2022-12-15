@@ -80,6 +80,6 @@ dt {
 }
 
 .col_order {
-  grid-template-columns: 1 fr 1fr;
+  grid-template-columns: 1fr 1fr;
   order: -1;
 }
