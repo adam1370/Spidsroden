@@ -14,12 +14,16 @@ body {
   background-color: #f2e8e2;
 }
 h1 {
-  color: black;
-  font-size: 50px;
+  color: rgb(16, 86, 16);
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h2 {
-  color: black;
-  font-size: 50px;
+  color: rgb(16, 86, 16);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 30px;
 }
 
 .Menu {
