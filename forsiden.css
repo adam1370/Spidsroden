@@ -62,7 +62,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 60px;
   margin-bottom: 60px;
   font-family: darker;
@@ -74,7 +74,7 @@ h1 {
   margin-top: 40px;
   margin-right: auto;
   display: block;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   font-family: darker;
 }
@@ -107,10 +107,10 @@ h1 {
   font-size: 30px;
 }
 
-.Video {
+Video {
   place-items: center;
-  margin-left: 260px;
-  width: 1400px;
+  margin-left: 395px;
+  width: 1080px;
 }
 
 .footer {
