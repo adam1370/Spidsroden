@@ -19,7 +19,6 @@ h2 {
   color: black;
   margin-bottom: 20px;
   font-size: 3rem;
-  font-family: "Playfair display", serif;
 }
 
 main {
@@ -47,13 +46,6 @@ main {
   color: black;
 }
 
-ul,
-dd,
-dt {
-  font-family: "Playfair display", serif;
-}
-
-/*nummer 2 css*/
 * {
   box-sizing: border-box;
   margin: 0;
