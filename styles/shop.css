@@ -52,7 +52,7 @@ main {
   text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   .produkt {
     width: 350px;
     height: 350px;
