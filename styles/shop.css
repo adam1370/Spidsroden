@@ -1,6 +1,7 @@
 .produkt {
-  width: 350px;
-  height: 350px;
+  width: 500px;
+  max-height: fit-content;
+  grid-template: auto;
 }
 main {
   padding: 5rem;
@@ -57,8 +58,11 @@ body {
 
 @media (min-width: 800px) {
   .produkt {
-    width: 350px;
-    height: 350px;
+    width: 600px;
+  }
+
+  .Menu {
+    width: 600px;
   }
   main {
     max-width: 1200px;
